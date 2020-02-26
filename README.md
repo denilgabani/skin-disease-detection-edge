@@ -6,15 +6,25 @@ Skin Disease Detection at edge predicts the disease of skin from the image of th
 
 
 ### Prerequisites
+#### **Prerequisite 1**
 
+- **Option 1**
+    - 🍴 Fork this repo!
+
+- **Option 2**
+    - 👯 Clone this repo to your local machine using
+
+#### Prerequisite 2
 First make sure that you have installed the anaconda.<br />
 See this [page](https://docs.anaconda.com/anaconda/install/) for installing anaconda. 
 
+#### Prerequisite 3
 Install the OpenVINO toolkit developed by Intel. OpenVINO toolkit is the secret behind AI at the Edge.<br />
 See this [page](https://docs.openvinotoolkit.org/latest/index.html) for installing anaconda.
 
 ### Installing
 
+#### Step 1
 Create a new environment using anaconda:-
 
 ```
@@ -23,12 +33,14 @@ conda create -n <envname> python=3.7
 
 For more information see [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
+#### Step 2
 Activate the environment:-
 
 ```
 conda activate <envname>
 ```
-
+#### Step 3
+Go to the project directory.<br />
 Install all the requirements:-
 
 ```
@@ -37,12 +49,14 @@ pip install -r requirements.txt
 
 ## Running the app
 
+#### Step 1
 Activate the created environment:-
 
 ```
 conda activate <envname>
 ```
 
+#### Step 2
 Activate the openvino source:- 
 
 &lt;put your own openvino installation directory in the below command&gt;
@@ -51,6 +65,7 @@ Activate the openvino source:-
 source </opt/intel/openvino/bin>/setupvars.sh
 ```
 
+#### Step 3
 Open the terminal/cmd in project directory or use
 
 ```
@@ -58,14 +73,17 @@ Open the terminal/cmd in project directory or use
 cd <project_directory>
 ```
 
-# Open the edge_app.py file and change the CPU_EXTENSION as per your installation directoty of openvino.
+#### Step 4
+***Open the edge_app.py file and change the CPU_EXTENSION as per your installation directoty of openvino.***
 
+#### Step 5
 Now finally run the app.py file using python:-
 
 ```
 python app.py
 ```
 
+#### Step 6
 Open the link as specified in terminal which would be like as shown in the picture:- 
 
 ![terminal](imgs/app_link.png)
@@ -92,3 +110,8 @@ It will give the result as shown in below picture:-
 
 ![prediction](imgs/prediction.png)
 
+## Comparision
+
+Comparision with Skin disease detection at edge with normal skin disease detection system (https://github.com/denilDG/skin-disease-detection).
+
+![Skin_Disease_Edge](imgs/Skin Disease edge.png "Skin Disease Detetcion at Edge") ![alt-text-2](imgs/Skin Disease.png "Skin Disease Detection")
