@@ -37,7 +37,11 @@ pip install -r requirements.txt
 
 ## Running the app
 
-Activate the [h](https://github.com/denilDG/skin-disease-detection-edge/README.md#L26)
+Activate the created environment:-
+
+```
+conda activate <envname>
+```
 
 Activate the openvino source:- 
 
@@ -46,4 +50,45 @@ Activate the openvino source:-
 ```
 source </opt/intel/openvino/bin>/setupvars.sh
 ```
+
+Open the terminal/cmd in project directory or use
+
+```
+
+cd <project_directory>
+```
+
+# Open the edge_app.py file and change the CPU_EXTENSION as per your installation directoty of openvino.
+
+Now finally run the app.py file using python:-
+
+```
+python app.py
+```
+
+Open the link as specified in terminal which would be like as shown in the picture:- 
+
+![terminal](imgs/app_link.png)
+
+So open the link shown as terminal here which is:- http://127.0.0.1:5000/
+
+Home page will be like this:-
+
+![home](imgs/home.png)
+
+Click on the identify button of the page.
+
+It will redirect you to upload page:-
+
+![upload](imgs/upload.png)
+
+Upload the skin disease image:-
+
+![uploading](imgs/uploaded_image.png)
+
+Now click on the upload button.
+
+It will give the result as shown in below picture:-
+
+![prediction](imgs/prediction.png)
 
