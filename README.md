@@ -129,4 +129,4 @@ Comparision of ***Time taken for prediction*** Skin disease detection at edge wi
 
 ## Note:
 
-### This model is not that much accurate. It's only to learn the deployment of an web app using openvino and flask. 
+### This model is not that much accurate. It's only for leaning the deployment of an web app using openvino and flask. 
