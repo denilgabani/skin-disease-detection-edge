@@ -1,8 +1,8 @@
 # Skin Disease Detection using AI at the Edge
 
-Skin Disease Detection at edge predicts the disease of skin from the image of that infected part in less than one second and that's where come ai at the edge.
+Skin Disease Detection at edge predicts the disease of skin from the image of that infected part in less than one second and that's where AI at the Edge come.
 
-This web app simply take an disease image using a web interface and give the disease name with accuracy and time taken for prediction.
+This web app simply take a disease image using a web interface and give the disease name with accuracy and time taken for prediction.
 
 
 ## Getting Started
@@ -15,7 +15,7 @@ This web app simply take an disease image using a web interface and give the dis
     - 🍴 Fork this repo!
 
 - **Option 2**
-    - 👯 Clone this repo to your local machine using
+    - 👯 Clone this repo to your local machine using https://github.com/denilDG/skin-disease-detection-edge.git
 
 #### Prerequisite 2
 First make sure that you have installed the anaconda.<br />
