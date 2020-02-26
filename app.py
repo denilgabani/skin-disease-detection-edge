@@ -35,4 +35,4 @@ def upload_file():
     return render_template('uploaded.html', title='Success', predictions=disease, acc=accuracy, img_file=skin_image.filename,time_diff=end-start)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
