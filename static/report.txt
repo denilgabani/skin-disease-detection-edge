@@ -1,0 +1,743 @@
+[ 2019-04-14 11:14:35 ] files_iframe_info.xml NOT YET CREATED
+[ 2019-04-14 11:14:35 ] #################################################################
+[ 2019-04-14 11:14:35 ] ######################   SCRAPING STARTED  ######################
+[ 2019-04-14 11:14:35 ] #################################################################
+[ 2019-04-14 11:14:35 ] Create an empty xml file : files_count.xml
+[ 2019-04-14 11:14:35 ] set_files_count_xml() function
+[ 2019-04-14 11:14:35 ] increment +1
+[ 2019-04-14 11:14:35 ] key = 'scraping_reload' |  value = '1'
+[ 2019-04-14 11:14:35 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:35 ] demo email sent !!!
+[ 2019-04-14 11:14:35 ] Number of running request for this user : 1
+[ 2019-04-14 11:14:35 ] Limit of running request by bulk user : 7
+[ 2019-04-14 11:14:35 ] -------------------------------------------
+[ 2019-04-14 11:14:35 ]  Reading From 'report_to_create_file.txt' 
+[ 2019-04-14 11:14:35 ] -------------------------------------------
+[ 2019-04-14 11:14:35 ] err_msg = file not Exist !!!
+[ 2019-04-14 11:14:35 ] -------------------------------------------
+[ 2019-04-14 11:14:35 ] Front Page is Complete = No
+[ 2019-04-14 11:14:35 ] -------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:35 ] scraping_front_page() Function ...
+[ 2019-04-14 11:14:35 ] archive_url_origine = http://lubax.com/
+[ 2019-04-14 11:14:35 ] Scraping of front page ( test number 1/3 )
+[ 2019-04-14 11:14:35 ] ---------------------------------------
+[ 2019-04-14 11:14:35 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:35 ] ---------------------------------------
+[ 2019-04-14 11:14:35 ] TEST 1
+[ 2019-04-14 11:14:35 ] URL = http://lubax.com/
+[ 2019-04-14 11:14:35 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:35 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0; InfoPath.3; MS-RTC LM 8; .NET4.0C; .NET4.0E)
+[ 2019-04-14 11:14:35 ] set_files_count_xml() function
+[ 2019-04-14 11:14:35 ] key = 'final_archive_url' |  value = 'http://lubax.com/'
+[ 2019-04-14 11:14:35 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:35 ] Final Archive URL = http://lubax.com/
+[ 2019-04-14 11:14:35 ] -------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:35 ] Create front page row in 'to_create_arr' table
+[ 2019-04-14 11:14:35 ] set_files_count_xml() function
+[ 2019-04-14 11:14:35 ] key = 'html_total' |  value = '1'
+[ 2019-04-14 11:14:35 ] key = 'html_done' |  value = '0'
+[ 2019-04-14 11:14:35 ] key = 'total_size' |  value = '12'
+[ 2019-04-14 11:14:35 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:35 ] ( 0 / 1 )  Done - 0 error pages fixed
+[ 2019-04-14 11:14:35 ] Archive url = http://lubax.com/
+[ 2019-04-14 11:14:35 ] Website url = lubax.com/
+[ 2019-04-14 11:14:35 ] No www url = lubax.com
+[ 2019-04-14 11:14:35 ] Main Domain = lubax.com
+[ 2019-04-14 11:14:35 ] full archive url = http://lubax.com/
+[ 2019-04-14 11:14:35 ] archive url = http://lubax.com/
+[ 2019-04-14 11:14:35 ] subdomain = www
+[ 2019-04-14 11:14:35 ] type( demo or live ) = demo
+[ 2019-04-14 11:14:35 ] max_level = 6
+[ 2019-04-14 11:14:35 ] main folder = lubax.com_neelgajera096_gmail.com_az2b7ttv8wm
+[ 2019-04-14 11:14:35 ] email = neelgajera096@gmail.com
+[ 2019-04-14 11:14:35 ] scrape_html_then_files_in_front_page = Yes
+[ 2019-04-14 11:14:35 ] 
+[ 2019-04-14 11:14:35 ] Download PDF = 0
+[ 2019-04-14 11:14:35 ] file_path_index = 
+[ 2019-04-14 11:14:35 ] file_path_without_ext_index = 
+[ 2019-04-14 11:14:35 ] strings_to_replace = 
+[ 2019-04-14 11:14:35 ] remove_broken_outbound_links = 1
+[ 2019-04-14 11:14:35 ] redirect_all_404_to_frontpage = No
+[ 2019-04-14 11:14:35 ] force_work_in_local = Yes
+[ 2019-04-14 11:14:35 ] skip_fix_encoding = Yes
+[ 2019-04-14 11:14:35 ] Use Proxy after first scraping fail = Yes
+[ 2019-04-14 11:14:35 ] scraping_reload number = 1
+[ 2019-04-14 11:14:35 ] max_pages_demo = 10
+[ 2019-04-14 11:14:35 ] max_size_demo = 10000
+[ 2019-04-14 11:14:35 ] ------------------------------------------------------------------
+[ 2019-04-14 11:14:35 ] set_files_count_xml() function
+[ 2019-04-14 11:14:35 ] key = 'html_total' |  value = '1'
+[ 2019-04-14 11:14:35 ] key = 'html_done' |  value = '0'
+[ 2019-04-14 11:14:35 ] key = 'total_size' |  value = '16'
+[ 2019-04-14 11:14:35 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:35 ] ( 0 / 1 )  Done - 0 error pages fixed
+[ 2019-04-14 11:14:35 ] 'index.html' Exist in 'to_create_arr' in the first row ( Completed : No )
+[ 2019-04-14 11:14:35 ] Scraping duration not calculated because front page not created yet
+[ 2019-04-14 11:14:35 ] index.html -> File name found in to_create_arr
+[ 2019-04-14 11:14:35 ] #####################################################################################################
+[ 2019-04-14 11:14:35 ] ###############http://lubax.com/ ( Scraping  of 1 / 1 )  - 0 error pages fixed###############
+[ 2019-04-14 11:14:35 ] ###############Local URL = index.html (code = 200) ###############
+[ 2019-04-14 11:14:35 ] ###############This is front page###############
+[ 2019-04-14 11:14:35 ] ###############Try number = 1###############
+[ 2019-04-14 11:14:35 ] #####################################################################################################
+[ 2019-04-14 11:14:35 ]  Main level =0
+[ 2019-04-14 11:14:35 ] HTML already scraped ( it's probably a front page )
+[ 2019-04-14 11:14:35 ] Original encoding = UTF-8
+[ 2019-04-14 11:14:35 ] Original encoding is in probably UTF-8= true
+[ 2019-04-14 11:14:35 ] ----------------------------------------
+[ 2019-04-14 11:14:35 ] Not checking the encoding
+[ 2019-04-14 11:14:35 ] Final encoding = UTF-8
+[ 2019-04-14 11:14:35 ] Language = N/A
+[ 2019-04-14 11:14:35 ] set_files_count_xml() function
+[ 2019-04-14 11:14:35 ] key = 'is_pretty_url' |  value = 'false'
+[ 2019-04-14 11:14:35 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:35 ] replace frontpage => Replace '/' with 'index.html'
+[ 2019-04-14 11:14:35 ] ###############################################################
+[ 2019-04-14 11:14:35 ] Original Href = http://www.linkedin.com/company/lubax-inc- - [( 1/3 )]
+[ 2019-04-14 11:14:35 ] href = http://www.linkedin.com/company/lubax-inc- ( is_internal_url = No )
+[ 2019-04-14 11:14:35 ] ###############################################################
+[ 2019-04-14 11:14:35 ] Original Href = https://www.facebook.com/pages/Lubax/218429638324248 - [( 2/3 )]
+[ 2019-04-14 11:14:35 ] href = https://www.facebook.com/pages/Lubax/218429638324248 ( is_internal_url = No )
+[ 2019-04-14 11:14:35 ] ###############################################################
+[ 2019-04-14 11:14:35 ] Original Href = https://twitter.com/LubaxInc - [( 3/3 )]
+[ 2019-04-14 11:14:35 ] href = https://twitter.com/LubaxInc ( is_internal_url = No )
+[ 2019-04-14 11:14:35 ] local_file_path not created yet = index.html
+[ 2019-04-14 11:14:35 ] code = 200
+[ 2019-04-14 11:14:36 ] index.html -> Front page created
+[ 2019-04-14 11:14:36 ] set_files_count_xml() function
+[ 2019-04-14 11:14:36 ] key = 'html_total' |  value = '1'
+[ 2019-04-14 11:14:36 ] key = 'html_done' |  value = '1'
+[ 2019-04-14 11:14:36 ] key = 'total_size' |  value = '28'
+[ 2019-04-14 11:14:36 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:36 ] ( 1 / 1 )  Done - 0 error pages fixed
+[ 2019-04-14 11:14:36 ] index.html ( Front page ) : index.html already created so now I need to scrape all extensions and update the index.html file
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] /**************************************************************/
+[ 2019-04-14 11:14:36 ] /*******		Extract 'css_from_import' files		**********/
+[ 2019-04-14 11:14:36 ] /*******		From    'index.html'      **********/
+[ 2019-04-14 11:14:36 ] /**************************************************************/
+[ 2019-04-14 11:14:36 ] We still update 'index.html'
+[ 2019-04-14 11:14:36 ] /*******		End : Extract css_from_import files		**********/
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] /**************************************************************/
+[ 2019-04-14 11:14:36 ] /*******		Extract 'fonts_from_html' files		**********/
+[ 2019-04-14 11:14:36 ] /*******		From    'index.html'      **********/
+[ 2019-04-14 11:14:36 ] /**************************************************************/
+[ 2019-04-14 11:14:36 ] We still update 'index.html'
+[ 2019-04-14 11:14:36 ] /*******		End : Extract fonts_from_html files		**********/
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] /**************************************************************/
+[ 2019-04-14 11:14:36 ] /*******		Extract 'css' files		**********/
+[ 2019-04-14 11:14:36 ] /*******		From    'index.html'      **********/
+[ 2019-04-14 11:14:36 ] /**************************************************************/
+[ 2019-04-14 11:14:36 ] We still update 'index.html'
+[ 2019-04-14 11:14:36 ] file url = http://lubax.com/css/style.css
+[ 2019-04-14 11:14:36 ] ---------------------------------------
+[ 2019-04-14 11:14:36 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:36 ] ---------------------------------------
+[ 2019-04-14 11:14:36 ] TEST 1
+[ 2019-04-14 11:14:36 ] URL = http://lubax.com/css/style.css
+[ 2019-04-14 11:14:36 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:36 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; es-es) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] /**************************************************************/
+[ 2019-04-14 11:14:36 ] /*******		Extract 'css_from_import' files		**********/
+[ 2019-04-14 11:14:36 ] /*******		From    'css/style.css'      **********/
+[ 2019-04-14 11:14:36 ] /*******		folder_path    'css/'      **********/
+[ 2019-04-14 11:14:36 ] /**************************************************************/
+[ 2019-04-14 11:14:36 ] We still update 'index.html'
+[ 2019-04-14 11:14:36 ] /*******		End : Extract css_from_import files		**********/
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] /**************************************************************/
+[ 2019-04-14 11:14:36 ] /*******		Extract 'fonts_from_css' files		**********/
+[ 2019-04-14 11:14:36 ] /*******		From    'css/style.css'      **********/
+[ 2019-04-14 11:14:36 ] /*******		folder_path    'css/'      **********/
+[ 2019-04-14 11:14:36 ] /**************************************************************/
+[ 2019-04-14 11:14:36 ] We still update 'index.html'
+[ 2019-04-14 11:14:36 ] file url = http://lubax.com/fonts/icomoon.eot
+[ 2019-04-14 11:14:36 ] ---------------------------------------
+[ 2019-04-14 11:14:36 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:36 ] ---------------------------------------
+[ 2019-04-14 11:14:36 ] TEST 1
+[ 2019-04-14 11:14:36 ] URL = http://lubax.com/fonts/icomoon.eot
+[ 2019-04-14 11:14:36 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:36 ] useragent = Mozilla/5.0 (Windows NT 5.0; rv:21.0) Gecko/20100101 Firefox/21.0
+[ 2019-04-14 11:14:36 ] css/fonts --> Folder Created !!!
+[ 2019-04-14 11:14:36 ] css/fonts/icomoon.eot --> File Created !!!
+[ 2019-04-14 11:14:36 ] set_files_count_xml() function
+[ 2019-04-14 11:14:36 ] increment +1
+[ 2019-04-14 11:14:36 ] key = 'fonts' |  value = '1'
+[ 2019-04-14 11:14:36 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:36 ] local_file_path_rel = css/fonts/icomoon.eot (Exist = Yes)
+[ 2019-04-14 11:14:36 ] css/style.css : REPLACE '../fonts/icomoon.eot' WITH 'fonts/icomoon.eot'
+[ 2019-04-14 11:14:36 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:36 ] folder_path = css/
+[ 2019-04-14 11:14:36 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:36 ] file url = http://lubax.com/fonts/icomoon.eot?#iefix
+[ 2019-04-14 11:14:36 ] local_file_path_rel = css/fonts/icomoon.eot (Exist = Yes)
+[ 2019-04-14 11:14:36 ] css/style.css : REPLACE '../fonts/icomoon.eot?#iefix' WITH 'fonts/icomoon.eot'
+[ 2019-04-14 11:14:36 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:36 ] folder_path = css/
+[ 2019-04-14 11:14:36 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:36 ] file url = http://lubax.com/fonts/icomoon.ttf
+[ 2019-04-14 11:14:36 ] ---------------------------------------
+[ 2019-04-14 11:14:36 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:36 ] ---------------------------------------
+[ 2019-04-14 11:14:36 ] TEST 1
+[ 2019-04-14 11:14:36 ] URL = http://lubax.com/fonts/icomoon.ttf
+[ 2019-04-14 11:14:36 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:36 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 7.1; Trident/5.0)
+[ 2019-04-14 11:14:36 ] css/fonts/icomoon.ttf --> File Created !!!
+[ 2019-04-14 11:14:36 ] set_files_count_xml() function
+[ 2019-04-14 11:14:36 ] increment +1
+[ 2019-04-14 11:14:36 ] key = 'fonts' |  value = '2'
+[ 2019-04-14 11:14:36 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:36 ] local_file_path_rel = css/fonts/icomoon.ttf (Exist = Yes)
+[ 2019-04-14 11:14:36 ] css/style.css : REPLACE '../fonts/icomoon.ttf' WITH 'fonts/icomoon.ttf'
+[ 2019-04-14 11:14:36 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:36 ] folder_path = css/
+[ 2019-04-14 11:14:36 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:36 ] file url = http://lubax.com/fonts/icomoon.woff
+[ 2019-04-14 11:14:36 ] ---------------------------------------
+[ 2019-04-14 11:14:36 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:36 ] ---------------------------------------
+[ 2019-04-14 11:14:36 ] TEST 1
+[ 2019-04-14 11:14:36 ] URL = http://lubax.com/fonts/icomoon.woff
+[ 2019-04-14 11:14:36 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:36 ] useragent = Mozilla/5.0 (Windows NT 5.1; rv:21.0) Gecko/20130331 Firefox/21.0
+[ 2019-04-14 11:14:36 ] css/fonts/icomoon.woff --> File Created !!!
+[ 2019-04-14 11:14:36 ] set_files_count_xml() function
+[ 2019-04-14 11:14:36 ] increment +1
+[ 2019-04-14 11:14:36 ] key = 'fonts' |  value = '3'
+[ 2019-04-14 11:14:36 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:36 ] local_file_path_rel = css/fonts/icomoon.woff (Exist = Yes)
+[ 2019-04-14 11:14:36 ] css/style.css : REPLACE '../fonts/icomoon.woff' WITH 'fonts/icomoon.woff'
+[ 2019-04-14 11:14:36 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:36 ] folder_path = css/
+[ 2019-04-14 11:14:36 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:36 ] file url = http://lubax.com/fonts/icomoon.svg#icomoon
+[ 2019-04-14 11:14:36 ] ---------------------------------------
+[ 2019-04-14 11:14:36 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:36 ] ---------------------------------------
+[ 2019-04-14 11:14:36 ] TEST 1
+[ 2019-04-14 11:14:36 ] URL = http://lubax.com/fonts/icomoon.svg#icomoon
+[ 2019-04-14 11:14:36 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:36 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; da-dk) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1
+[ 2019-04-14 11:14:36 ] css/fonts/icomoon.svg --> File Created !!!
+[ 2019-04-14 11:14:36 ] set_files_count_xml() function
+[ 2019-04-14 11:14:36 ] increment +1
+[ 2019-04-14 11:14:36 ] key = 'fonts' |  value = '4'
+[ 2019-04-14 11:14:36 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:36 ] local_file_path_rel = css/fonts/icomoon.svg (Exist = Yes)
+[ 2019-04-14 11:14:36 ] css/style.css : REPLACE '../fonts/icomoon.svg#icomoon' WITH 'fonts/icomoon.svg'
+[ 2019-04-14 11:14:36 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:36 ] folder_path = css/
+[ 2019-04-14 11:14:36 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:36 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] 
+[ 2019-04-14 11:14:36 ] /**************************************************************/
+[ 2019-04-14 11:14:36 ] /*******		Extract 'background_images' files		**********/
+[ 2019-04-14 11:14:36 ] /*******		From    'css/style.css'      **********/
+[ 2019-04-14 11:14:36 ] /*******		folder_path    'css/img'      **********/
+[ 2019-04-14 11:14:36 ] /**************************************************************/
+[ 2019-04-14 11:14:36 ] We still update 'index.html'
+[ 2019-04-14 11:14:36 ] count of background images 2
+[ 2019-04-14 11:14:36 ] href_1 =>fonts/icomoon.eot
+[ 2019-04-14 11:14:36 ] href_1 =>fonts/icomoon.eot?#iefix
+[ 2019-04-14 11:14:36 ] href_1 =>fonts/icomoon.ttf
+[ 2019-04-14 11:14:36 ] href_1 =>fonts/icomoon.woff
+[ 2019-04-14 11:14:36 ] href_1 =>fonts/icomoon.svg
+[ 2019-04-14 11:14:36 ] href_1 =>../images/logo_white.png
+[ 2019-04-14 11:14:36 ] href_1 =>../images/icons.png
+[ 2019-04-14 11:14:36 ] href_1 =>../images/panel1_background.png
+[ 2019-04-14 11:14:36 ] file url = http://lubax.com/css/fonts/icomoon.svg
+[ 2019-04-14 11:14:36 ] ---------------------------------------
+[ 2019-04-14 11:14:36 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:36 ] ---------------------------------------
+[ 2019-04-14 11:14:36 ] TEST 1
+[ 2019-04-14 11:14:36 ] URL = http://lubax.com/css/fonts/icomoon.svg
+[ 2019-04-14 11:14:36 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:37 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; ko-kr) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2019-04-14 11:14:37 ] Code = 404
+[ 2019-04-14 11:14:37 ] HTML found = Yes
+[ 2019-04-14 11:14:37 ]     No sleep!
+[ 2019-04-14 11:14:37 ] ----
+[ 2019-04-14 11:14:37 ] TEST 2
+[ 2019-04-14 11:14:37 ] URL = https://lubax.com/css/fonts/icomoon.svg  --> Switch protocol ( Try 'https' )
+[ 2019-04-14 11:14:37 ] no proxy used ( Test nbr 2/6 )
+[ 2019-04-14 11:14:37 ] useragent = Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20130331 Firefox/21.0
+[ 2019-04-14 11:14:37 ] Code = 0
+[ 2019-04-14 11:14:37 ] HTML found = No
+[ 2019-04-14 11:14:37 ]     No sleep!
+[ 2019-04-14 11:14:37 ] ----
+[ 2019-04-14 11:14:37 ] TEST 3
+[ 2019-04-14 11:14:37 ] URL = http://lubax.com/css/fonts/icomoon.svg
+[ 2019-04-14 11:14:37 ] no proxy used ( Test nbr 3/6 )
+[ 2019-04-14 11:14:37 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36
+[ 2019-04-14 11:14:37 ] Code = 404
+[ 2019-04-14 11:14:37 ] HTML found = Yes
+[ 2019-04-14 11:14:37 ]     No sleep!
+[ 2019-04-14 11:14:37 ] ----
+[ 2019-04-14 11:14:37 ] This is a broken image :fonts/icomoon.svg
+[ 2019-04-14 11:14:37 ] local_file_path_rel = css/img/icomoon.svg (Exist = No)
+[ 2019-04-14 11:14:37 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:37 ] file url = http://lubax.com/images/logo_white.png
+[ 2019-04-14 11:14:37 ] ---------------------------------------
+[ 2019-04-14 11:14:37 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:37 ] ---------------------------------------
+[ 2019-04-14 11:14:37 ] TEST 1
+[ 2019-04-14 11:14:37 ] URL = http://lubax.com/images/logo_white.png
+[ 2019-04-14 11:14:37 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:37 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; FunWebProducts)
+[ 2019-04-14 11:14:37 ] css/img --> Folder Created !!!
+[ 2019-04-14 11:14:37 ] css/img/logo_white.png --> File Created !!!
+[ 2019-04-14 11:14:37 ] set_files_count_xml() function
+[ 2019-04-14 11:14:37 ] increment +1
+[ 2019-04-14 11:14:37 ] key = 'img' |  value = '1'
+[ 2019-04-14 11:14:37 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:37 ] local_file_path_rel = css/img/logo_white.png (Exist = Yes)
+[ 2019-04-14 11:14:37 ] css/style.css : REPLACE '../images/logo_white.png' WITH 'img/logo_white.png'
+[ 2019-04-14 11:14:37 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:37 ] folder_path = css/img
+[ 2019-04-14 11:14:37 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:37 ] file url = http://lubax.com/images/icons.png
+[ 2019-04-14 11:14:37 ] ---------------------------------------
+[ 2019-04-14 11:14:37 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:37 ] ---------------------------------------
+[ 2019-04-14 11:14:37 ] TEST 1
+[ 2019-04-14 11:14:37 ] URL = http://lubax.com/images/icons.png
+[ 2019-04-14 11:14:37 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:37 ] useragent = Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+[ 2019-04-14 11:14:37 ] css/img/icons.png --> File Created !!!
+[ 2019-04-14 11:14:37 ] set_files_count_xml() function
+[ 2019-04-14 11:14:37 ] increment +1
+[ 2019-04-14 11:14:37 ] key = 'img' |  value = '2'
+[ 2019-04-14 11:14:37 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:37 ] local_file_path_rel = css/img/icons.png (Exist = Yes)
+[ 2019-04-14 11:14:37 ] css/style.css : REPLACE '../images/icons.png' WITH 'img/icons.png'
+[ 2019-04-14 11:14:37 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:37 ] folder_path = css/img
+[ 2019-04-14 11:14:37 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:37 ] file url = http://lubax.com/images/panel1_background.png
+[ 2019-04-14 11:14:37 ] ---------------------------------------
+[ 2019-04-14 11:14:37 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:37 ] ---------------------------------------
+[ 2019-04-14 11:14:37 ] TEST 1
+[ 2019-04-14 11:14:37 ] URL = http://lubax.com/images/panel1_background.png
+[ 2019-04-14 11:14:37 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:37 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0) chromeframe/10.0.648.205
+[ 2019-04-14 11:14:37 ] css/img/panel1_background.png --> File Created !!!
+[ 2019-04-14 11:14:37 ] set_files_count_xml() function
+[ 2019-04-14 11:14:37 ] increment +1
+[ 2019-04-14 11:14:37 ] key = 'img' |  value = '3'
+[ 2019-04-14 11:14:37 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:37 ] local_file_path_rel = css/img/panel1_background.png (Exist = Yes)
+[ 2019-04-14 11:14:37 ] css/style.css : REPLACE '../images/panel1_background.png' WITH 'img/panel1_background.png'
+[ 2019-04-14 11:14:37 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:37 ] folder_path = css/img
+[ 2019-04-14 11:14:37 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:37 ] /*******		End : Extract background_images files		**********/
+[ 2019-04-14 11:14:37 ] 
+[ 2019-04-14 11:14:37 ] css/style.css --> File Created !!!
+[ 2019-04-14 11:14:37 ] set_files_count_xml() function
+[ 2019-04-14 11:14:37 ] increment +1
+[ 2019-04-14 11:14:37 ] key = 'css' |  value = '1'
+[ 2019-04-14 11:14:37 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:37 ] local_file_path_rel = css/style.css (Exist = Yes)
+[ 2019-04-14 11:14:37 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:37 ] folder_path = 
+[ 2019-04-14 11:14:37 ] Page updated = index.html
+[ 2019-04-14 11:14:37 ] index.html ( Front page ) : update index.html
+[ 2019-04-14 11:14:37 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:37 ] file url = http://lubax.com/css/media-queries.css
+[ 2019-04-14 11:14:37 ] ---------------------------------------
+[ 2019-04-14 11:14:37 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:37 ] ---------------------------------------
+[ 2019-04-14 11:14:37 ] TEST 1
+[ 2019-04-14 11:14:37 ] URL = http://lubax.com/css/media-queries.css
+[ 2019-04-14 11:14:37 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:37 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36
+[ 2019-04-14 11:14:37 ] 
+[ 2019-04-14 11:14:37 ] 
+[ 2019-04-14 11:14:37 ] /**************************************************************/
+[ 2019-04-14 11:14:37 ] /*******		Extract 'css_from_import' files		**********/
+[ 2019-04-14 11:14:37 ] /*******		From    'css/media-queries.css'      **********/
+[ 2019-04-14 11:14:37 ] /*******		folder_path    'css/'      **********/
+[ 2019-04-14 11:14:37 ] /**************************************************************/
+[ 2019-04-14 11:14:37 ] We still update 'index.html'
+[ 2019-04-14 11:14:37 ] /*******		End : Extract css_from_import files		**********/
+[ 2019-04-14 11:14:37 ] 
+[ 2019-04-14 11:14:37 ] 
+[ 2019-04-14 11:14:37 ] 
+[ 2019-04-14 11:14:37 ] /**************************************************************/
+[ 2019-04-14 11:14:37 ] /*******		Extract 'fonts_from_css' files		**********/
+[ 2019-04-14 11:14:37 ] /*******		From    'css/media-queries.css'      **********/
+[ 2019-04-14 11:14:37 ] /*******		folder_path    'css/'      **********/
+[ 2019-04-14 11:14:37 ] /**************************************************************/
+[ 2019-04-14 11:14:37 ] We still update 'index.html'
+[ 2019-04-14 11:14:37 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2019-04-14 11:14:37 ] 
+[ 2019-04-14 11:14:37 ] 
+[ 2019-04-14 11:14:37 ] 
+[ 2019-04-14 11:14:37 ] /**************************************************************/
+[ 2019-04-14 11:14:37 ] /*******		Extract 'background_images' files		**********/
+[ 2019-04-14 11:14:37 ] /*******		From    'css/media-queries.css'      **********/
+[ 2019-04-14 11:14:37 ] /*******		folder_path    'css/img'      **********/
+[ 2019-04-14 11:14:37 ] /**************************************************************/
+[ 2019-04-14 11:14:37 ] We still update 'index.html'
+[ 2019-04-14 11:14:37 ] count of background images 2
+[ 2019-04-14 11:14:37 ] href_1 =>../images/logo_white_small.png
+[ 2019-04-14 11:14:37 ] file url = http://lubax.com/images/logo_white_small.png
+[ 2019-04-14 11:14:37 ] ---------------------------------------
+[ 2019-04-14 11:14:37 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:37 ] ---------------------------------------
+[ 2019-04-14 11:14:37 ] TEST 1
+[ 2019-04-14 11:14:37 ] URL = http://lubax.com/images/logo_white_small.png
+[ 2019-04-14 11:14:37 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:38 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)
+[ 2019-04-14 11:14:38 ] css/img/logo_white_small.png --> File Created !!!
+[ 2019-04-14 11:14:38 ] set_files_count_xml() function
+[ 2019-04-14 11:14:38 ] increment +1
+[ 2019-04-14 11:14:38 ] key = 'img' |  value = '4'
+[ 2019-04-14 11:14:38 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:38 ] local_file_path_rel = css/img/logo_white_small.png (Exist = Yes)
+[ 2019-04-14 11:14:38 ] css/media-queries.css : REPLACE '../images/logo_white_small.png' WITH 'img/logo_white_small.png'
+[ 2019-04-14 11:14:38 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:38 ] folder_path = css/img
+[ 2019-04-14 11:14:38 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:38 ] /*******		End : Extract background_images files		**********/
+[ 2019-04-14 11:14:38 ] 
+[ 2019-04-14 11:14:38 ] css/media-queries.css --> File Created !!!
+[ 2019-04-14 11:14:38 ] set_files_count_xml() function
+[ 2019-04-14 11:14:38 ] increment +1
+[ 2019-04-14 11:14:38 ] key = 'css' |  value = '2'
+[ 2019-04-14 11:14:38 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:38 ] local_file_path_rel = css/media-queries.css (Exist = Yes)
+[ 2019-04-14 11:14:38 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:38 ] folder_path = 
+[ 2019-04-14 11:14:38 ] Page updated = index.html
+[ 2019-04-14 11:14:38 ] index.html ( Front page ) : update index.html
+[ 2019-04-14 11:14:38 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:38 ] /*******		End : Extract css files		**********/
+[ 2019-04-14 11:14:38 ] 
+[ 2019-04-14 11:14:38 ] 
+[ 2019-04-14 11:14:38 ] 
+[ 2019-04-14 11:14:38 ] /**************************************************************/
+[ 2019-04-14 11:14:38 ] /*******		Extract 'img' files		**********/
+[ 2019-04-14 11:14:38 ] /*******		From    'index.html'      **********/
+[ 2019-04-14 11:14:38 ] /**************************************************************/
+[ 2019-04-14 11:14:38 ] We still update 'index.html'
+[ 2019-04-14 11:14:38 ] file url = http://lubax.com/images/algorithm.png
+[ 2019-04-14 11:14:38 ] ---------------------------------------
+[ 2019-04-14 11:14:38 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:38 ] ---------------------------------------
+[ 2019-04-14 11:14:38 ] TEST 1
+[ 2019-04-14 11:14:38 ] URL = http://lubax.com/images/algorithm.png
+[ 2019-04-14 11:14:38 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:38 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20130401 Firefox/
+[ 2019-04-14 11:14:38 ] images --> Folder Created !!!
+[ 2019-04-14 11:14:38 ] images/algorithm.png --> File Created !!!
+[ 2019-04-14 11:14:38 ] set_files_count_xml() function
+[ 2019-04-14 11:14:38 ] increment +1
+[ 2019-04-14 11:14:38 ] key = 'img' |  value = '5'
+[ 2019-04-14 11:14:38 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:38 ] local_file_path_rel = images/algorithm.png (Exist = Yes)
+[ 2019-04-14 11:14:38 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:38 ] folder_path = 
+[ 2019-04-14 11:14:38 ] Page updated = index.html
+[ 2019-04-14 11:14:38 ] index.html ( Front page ) : update index.html
+[ 2019-04-14 11:14:38 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:38 ] file url = http://lubax.com/images/database.png
+[ 2019-04-14 11:14:38 ] ---------------------------------------
+[ 2019-04-14 11:14:38 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:38 ] ---------------------------------------
+[ 2019-04-14 11:14:38 ] TEST 1
+[ 2019-04-14 11:14:38 ] URL = http://lubax.com/images/database.png
+[ 2019-04-14 11:14:38 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:38 ] useragent = Mozilla/5.0 (compatible; MSIE 10.6; Windows NT 6.1; Trident/5.0; InfoPath.2; SLCC1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727) 3gpp-gba UNTRUSTED/1.0
+[ 2019-04-14 11:14:38 ] images/database.png --> File Created !!!
+[ 2019-04-14 11:14:38 ] set_files_count_xml() function
+[ 2019-04-14 11:14:38 ] increment +1
+[ 2019-04-14 11:14:38 ] key = 'img' |  value = '6'
+[ 2019-04-14 11:14:38 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:38 ] local_file_path_rel = images/database.png (Exist = Yes)
+[ 2019-04-14 11:14:38 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:38 ] folder_path = 
+[ 2019-04-14 11:14:38 ] Page updated = index.html
+[ 2019-04-14 11:14:38 ] index.html ( Front page ) : update index.html
+[ 2019-04-14 11:14:38 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:38 ] file url = http://lubax.com/images/platforms.png
+[ 2019-04-14 11:14:38 ] ---------------------------------------
+[ 2019-04-14 11:14:38 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:38 ] ---------------------------------------
+[ 2019-04-14 11:14:38 ] TEST 1
+[ 2019-04-14 11:14:38 ] URL = http://lubax.com/images/platforms.png
+[ 2019-04-14 11:14:38 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:38 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20130331 Firefox/21.0
+[ 2019-04-14 11:14:38 ] images/platforms.png --> File Created !!!
+[ 2019-04-14 11:14:38 ] set_files_count_xml() function
+[ 2019-04-14 11:14:38 ] increment +1
+[ 2019-04-14 11:14:38 ] key = 'img' |  value = '7'
+[ 2019-04-14 11:14:38 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:38 ] local_file_path_rel = images/platforms.png (Exist = Yes)
+[ 2019-04-14 11:14:38 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:38 ] folder_path = 
+[ 2019-04-14 11:14:38 ] Page updated = index.html
+[ 2019-04-14 11:14:38 ] index.html ( Front page ) : update index.html
+[ 2019-04-14 11:14:38 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:38 ] file url = http://lubax.com/images/favicon.png
+[ 2019-04-14 11:14:38 ] ---------------------------------------
+[ 2019-04-14 11:14:38 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:38 ] ---------------------------------------
+[ 2019-04-14 11:14:38 ] TEST 1
+[ 2019-04-14 11:14:38 ] URL = http://lubax.com/images/favicon.png
+[ 2019-04-14 11:14:38 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:38 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:24.0) Gecko/20100101 Firefox/24.0
+[ 2019-04-14 11:14:38 ] images/favicon.png --> File Created !!!
+[ 2019-04-14 11:14:38 ] set_files_count_xml() function
+[ 2019-04-14 11:14:38 ] increment +1
+[ 2019-04-14 11:14:38 ] key = 'img' |  value = '8'
+[ 2019-04-14 11:14:38 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:38 ] local_file_path_rel = images/favicon.png (Exist = Yes)
+[ 2019-04-14 11:14:38 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:38 ] folder_path = 
+[ 2019-04-14 11:14:38 ] Page updated = index.html
+[ 2019-04-14 11:14:38 ] index.html ( Front page ) : update index.html
+[ 2019-04-14 11:14:38 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:38 ] /*******		End : Extract img files		**********/
+[ 2019-04-14 11:14:38 ] 
+[ 2019-04-14 11:14:38 ] 
+[ 2019-04-14 11:14:38 ] 
+[ 2019-04-14 11:14:38 ] /**************************************************************/
+[ 2019-04-14 11:14:38 ] /*******		Extract 'background_images' files		**********/
+[ 2019-04-14 11:14:38 ] /*******		From    'index.html'      **********/
+[ 2019-04-14 11:14:38 ] /**************************************************************/
+[ 2019-04-14 11:14:38 ] We still update 'index.html'
+[ 2019-04-14 11:14:38 ] count of background images 2
+[ 2019-04-14 11:14:38 ] /*******		End : Extract background_images files		**********/
+[ 2019-04-14 11:14:38 ] 
+[ 2019-04-14 11:14:38 ] 
+[ 2019-04-14 11:14:38 ] 
+[ 2019-04-14 11:14:38 ] /**************************************************************/
+[ 2019-04-14 11:14:38 ] /*******		Extract 'background_images_in_html' files		**********/
+[ 2019-04-14 11:14:38 ] /*******		From    'index.html'      **********/
+[ 2019-04-14 11:14:38 ] /**************************************************************/
+[ 2019-04-14 11:14:38 ] We still update 'index.html'
+[ 2019-04-14 11:14:38 ] /*******		End : Extract background_images_in_html files		**********/
+[ 2019-04-14 11:14:38 ] 
+[ 2019-04-14 11:14:38 ] 
+[ 2019-04-14 11:14:38 ] 
+[ 2019-04-14 11:14:38 ] /**************************************************************/
+[ 2019-04-14 11:14:38 ] /*******		Extract 'script' files		**********/
+[ 2019-04-14 11:14:38 ] /*******		From    'index.html'      **********/
+[ 2019-04-14 11:14:38 ] /**************************************************************/
+[ 2019-04-14 11:14:38 ] We still update 'index.html'
+[ 2019-04-14 11:14:38 ] From get_href_arr_javascript_from_html() func (pushed) >> href = //html5shim.googlecode.com/svn/trunk/html5.js
+[ 2019-04-14 11:14:38 ] From get_href_arr_javascript_from_html() func (pushed) >> href = //css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js
+[ 2019-04-14 11:14:38 ] file url = http://cdn.jsdelivr.net/prefixfree/1.0.7/prefixfree.dynamic-dom.min.js
+[ 2019-04-14 11:14:38 ] ---------------------------------------
+[ 2019-04-14 11:14:38 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:38 ] ---------------------------------------
+[ 2019-04-14 11:14:38 ] TEST 1
+[ 2019-04-14 11:14:38 ] URL = http://cdn.jsdelivr.net/prefixfree/1.0.7/prefixfree.dynamic-dom.min.js
+[ 2019-04-14 11:14:38 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:39 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36
+[ 2019-04-14 11:14:39 ] prefixfree/1-0-7 --> Folder Created !!!
+[ 2019-04-14 11:14:39 ] prefixfree/1-0-7/prefixfree.dynamic-dom.min.js --> File Created !!!
+[ 2019-04-14 11:14:39 ] set_files_count_xml() function
+[ 2019-04-14 11:14:39 ] increment +1
+[ 2019-04-14 11:14:39 ] key = 'js' |  value = '1'
+[ 2019-04-14 11:14:39 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:39 ] local_file_path_rel = prefixfree/1-0-7/prefixfree.dynamic-dom.min.js (Exist = Yes)
+[ 2019-04-14 11:14:39 ] index.html : REPLACE '//cdn.jsdelivr.net/prefixfree/1.0.7/prefixfree.dynamic-dom.min.js' WITH 'prefixfree/1-0-7/prefixfree.dynamic-dom.min.js'
+[ 2019-04-14 11:14:39 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:39 ] folder_path = 
+[ 2019-04-14 11:14:39 ] Page updated = index.html
+[ 2019-04-14 11:14:39 ] index.html ( Front page ) : update index.html
+[ 2019-04-14 11:14:39 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:39 ] file url = http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+[ 2019-04-14 11:14:39 ] ---------------------------------------
+[ 2019-04-14 11:14:39 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:39 ] ---------------------------------------
+[ 2019-04-14 11:14:39 ] TEST 1
+[ 2019-04-14 11:14:39 ] URL = http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+[ 2019-04-14 11:14:39 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:39 ] useragent = Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2019-04-14 11:14:39 ] ajax/libs/jquery/1-10-2 --> Folder Created !!!
+[ 2019-04-14 11:14:39 ] ajax/libs/jquery/1-10-2/jquery.min.js --> File Created !!!
+[ 2019-04-14 11:14:39 ] set_files_count_xml() function
+[ 2019-04-14 11:14:39 ] increment +1
+[ 2019-04-14 11:14:39 ] key = 'js' |  value = '2'
+[ 2019-04-14 11:14:39 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:39 ] local_file_path_rel = ajax/libs/jquery/1-10-2/jquery.min.js (Exist = Yes)
+[ 2019-04-14 11:14:39 ] index.html : REPLACE '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js' WITH 'ajax/libs/jquery/1-10-2/jquery.min.js'
+[ 2019-04-14 11:14:39 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:39 ] folder_path = 
+[ 2019-04-14 11:14:39 ] Page updated = index.html
+[ 2019-04-14 11:14:39 ] index.html ( Front page ) : update index.html
+[ 2019-04-14 11:14:39 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:39 ] file url = http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js
+[ 2019-04-14 11:14:39 ] ---------------------------------------
+[ 2019-04-14 11:14:39 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:39 ] ---------------------------------------
+[ 2019-04-14 11:14:39 ] TEST 1
+[ 2019-04-14 11:14:39 ] URL = http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js
+[ 2019-04-14 11:14:39 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:39 ] useragent = Mozilla/5.0 (Microsoft Windows NT 6.2.9200.0); rv:22.0) Gecko/20130405 Firefox/22.0
+[ 2019-04-14 11:14:39 ] ajax/libs/jqueryui/1-8 --> Folder Created !!!
+[ 2019-04-14 11:14:39 ] ajax/libs/jqueryui/1-8/jquery-ui.min.js --> File Created !!!
+[ 2019-04-14 11:14:39 ] set_files_count_xml() function
+[ 2019-04-14 11:14:39 ] increment +1
+[ 2019-04-14 11:14:39 ] key = 'js' |  value = '3'
+[ 2019-04-14 11:14:39 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:39 ] local_file_path_rel = ajax/libs/jqueryui/1-8/jquery-ui.min.js (Exist = Yes)
+[ 2019-04-14 11:14:39 ] index.html : REPLACE '//ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js' WITH 'ajax/libs/jqueryui/1-8/jquery-ui.min.js'
+[ 2019-04-14 11:14:39 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:39 ] folder_path = 
+[ 2019-04-14 11:14:39 ] Page updated = index.html
+[ 2019-04-14 11:14:39 ] index.html ( Front page ) : update index.html
+[ 2019-04-14 11:14:39 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:39 ] file url = http://www.google.com/jsapi
+[ 2019-04-14 11:14:39 ] ---------------------------------------
+[ 2019-04-14 11:14:39 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:39 ] ---------------------------------------
+[ 2019-04-14 11:14:39 ] TEST 1
+[ 2019-04-14 11:14:39 ] URL = http://www.google.com/jsapi
+[ 2019-04-14 11:14:39 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:39 ] useragent = Mozilla/5.0 (X11; Linux i686; rv:15.0) Gecko/20100101 Firefox/15.0.1 Iceweasel/15.0.1
+[ 2019-04-14 11:14:39 ] jsapi.js --> File Created !!!
+[ 2019-04-14 11:14:39 ] set_files_count_xml() function
+[ 2019-04-14 11:14:39 ] increment +1
+[ 2019-04-14 11:14:39 ] key = 'js' |  value = '4'
+[ 2019-04-14 11:14:39 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:39 ] local_file_path_rel = jsapi.js (Exist = Yes)
+[ 2019-04-14 11:14:39 ] index.html : REPLACE '//www.google.com/jsapi' WITH 'jsapi.js'
+[ 2019-04-14 11:14:39 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:39 ] folder_path = 
+[ 2019-04-14 11:14:39 ] Page updated = index.html
+[ 2019-04-14 11:14:39 ] index.html ( Front page ) : update index.html
+[ 2019-04-14 11:14:39 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:39 ] file url = http://lubax.com/js/main.js
+[ 2019-04-14 11:14:39 ] ---------------------------------------
+[ 2019-04-14 11:14:39 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:39 ] ---------------------------------------
+[ 2019-04-14 11:14:39 ] TEST 1
+[ 2019-04-14 11:14:39 ] URL = http://lubax.com/js/main.js
+[ 2019-04-14 11:14:39 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:39 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36
+[ 2019-04-14 11:14:39 ] js --> Folder Created !!!
+[ 2019-04-14 11:14:39 ] js/main.js --> File Created !!!
+[ 2019-04-14 11:14:39 ] set_files_count_xml() function
+[ 2019-04-14 11:14:39 ] increment +1
+[ 2019-04-14 11:14:39 ] key = 'js' |  value = '5'
+[ 2019-04-14 11:14:39 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:39 ] local_file_path_rel = js/main.js (Exist = Yes)
+[ 2019-04-14 11:14:39 ] update_html_file_path = index.html
+[ 2019-04-14 11:14:39 ] folder_path = 
+[ 2019-04-14 11:14:39 ] Page updated = index.html
+[ 2019-04-14 11:14:39 ] index.html ( Front page ) : update index.html
+[ 2019-04-14 11:14:39 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:39 ] file url = http://html5shim.googlecode.com/svn/trunk/html5.js
+[ 2019-04-14 11:14:39 ] ---------------------------------------
+[ 2019-04-14 11:14:39 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:39 ] ---------------------------------------
+[ 2019-04-14 11:14:39 ] TEST 1
+[ 2019-04-14 11:14:39 ] URL = http://html5shim.googlecode.com/svn/trunk/html5.js
+[ 2019-04-14 11:14:39 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:39 ] useragent = Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2019-04-14 11:14:39 ] Code = 404
+[ 2019-04-14 11:14:39 ] HTML found = Yes
+[ 2019-04-14 11:14:39 ]     No sleep!
+[ 2019-04-14 11:14:39 ] ----
+[ 2019-04-14 11:14:39 ] TEST 2
+[ 2019-04-14 11:14:39 ] URL = https://html5shim.googlecode.com/svn/trunk/html5.js  --> Switch protocol ( Try 'https' )
+[ 2019-04-14 11:14:39 ] no proxy used ( Test nbr 2/6 )
+[ 2019-04-14 11:14:39 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0
+[ 2019-04-14 11:14:39 ] Code = 404
+[ 2019-04-14 11:14:39 ] HTML found = Yes
+[ 2019-04-14 11:14:39 ]     No sleep!
+[ 2019-04-14 11:14:39 ] ----
+[ 2019-04-14 11:14:39 ] TEST 3
+[ 2019-04-14 11:14:39 ] URL = http://html5shim.googlecode.com/svn/trunk/html5.js
+[ 2019-04-14 11:14:39 ] no proxy used ( Test nbr 3/6 )
+[ 2019-04-14 11:14:39 ] useragent = Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2019-04-14 11:14:39 ] Code = 404
+[ 2019-04-14 11:14:39 ] HTML found = Yes
+[ 2019-04-14 11:14:39 ]     No sleep!
+[ 2019-04-14 11:14:39 ] ----
+[ 2019-04-14 11:14:39 ] This is a broken image ://html5shim.googlecode.com/svn/trunk/html5.js
+[ 2019-04-14 11:14:39 ] local_file_path_rel = svn/trunk/html5.js (Exist = No)
+[ 2019-04-14 11:14:39 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:39 ] file url = http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js
+[ 2019-04-14 11:14:39 ] ---------------------------------------
+[ 2019-04-14 11:14:39 ] get_curl_live() function : Start
+[ 2019-04-14 11:14:39 ] ---------------------------------------
+[ 2019-04-14 11:14:39 ] TEST 1
+[ 2019-04-14 11:14:39 ] URL = http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js
+[ 2019-04-14 11:14:39 ] no proxy used ( Test nbr 1/6 )
+[ 2019-04-14 11:14:39 ] useragent = Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+[ 2019-04-14 11:14:39 ] Code = 404
+[ 2019-04-14 11:14:39 ] HTML found = Yes
+[ 2019-04-14 11:14:39 ]     No sleep!
+[ 2019-04-14 11:14:39 ] ----
+[ 2019-04-14 11:14:39 ] TEST 2
+[ 2019-04-14 11:14:39 ] URL = https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js  --> Switch protocol ( Try 'https' )
+[ 2019-04-14 11:14:39 ] no proxy used ( Test nbr 2/6 )
+[ 2019-04-14 11:14:39 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; ja-jp) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2019-04-14 11:14:39 ] Code = 404
+[ 2019-04-14 11:14:39 ] HTML found = Yes
+[ 2019-04-14 11:14:39 ]     No sleep!
+[ 2019-04-14 11:14:39 ] ----
+[ 2019-04-14 11:14:39 ] TEST 3
+[ 2019-04-14 11:14:39 ] URL = http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js
+[ 2019-04-14 11:14:39 ] no proxy used ( Test nbr 3/6 )
+[ 2019-04-14 11:14:39 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:25.0) Gecko/20100101 Firefox/25.0
+[ 2019-04-14 11:14:39 ] Code = 404
+[ 2019-04-14 11:14:39 ] HTML found = Yes
+[ 2019-04-14 11:14:39 ]     No sleep!
+[ 2019-04-14 11:14:39 ] ----
+[ 2019-04-14 11:14:39 ] This is a broken image ://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js
+[ 2019-04-14 11:14:39 ] local_file_path_rel = svn/trunk/css3-mediaqueries.js (Exist = No)
+[ 2019-04-14 11:14:39 ] -------------------------------------------------------------------------------------------
+[ 2019-04-14 11:14:39 ] /*******		End : Extract script files		**********/
+[ 2019-04-14 11:14:39 ] 
+[ 2019-04-14 11:14:39 ] 
+[ 2019-04-14 11:14:39 ] 
+[ 2019-04-14 11:14:39 ] /**************************************************************/
+[ 2019-04-14 11:14:39 ] /*******		Extract 'swf' files		**********/
+[ 2019-04-14 11:14:39 ] /*******		From    'index.html'      **********/
+[ 2019-04-14 11:14:39 ] /**************************************************************/
+[ 2019-04-14 11:14:39 ] We still update 'index.html'
+[ 2019-04-14 11:14:39 ] /*******		End : Extract swf files		**********/
+[ 2019-04-14 11:14:39 ] 
+[ 2019-04-14 11:14:39 ] index.html --> HTML File Created !!!
+[ 2019-04-14 11:14:39 ] ----------------------------------------------------------------------
+[ 2019-04-14 11:14:39 ] update  to_create_arr[0][is_done] = 1
+[ 2019-04-14 11:14:39 ] set_files_count_xml() function
+[ 2019-04-14 11:14:39 ] key = 'html_total' |  value = '1'
+[ 2019-04-14 11:14:39 ] key = 'html_done' |  value = '1'
+[ 2019-04-14 11:14:39 ] key = 'total_size' |  value = '1160'
+[ 2019-04-14 11:14:39 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:39 ] ( 1 / 1 )  Done - 0 error pages fixed
+[ 2019-04-14 11:14:39 ] create_zip_file_and_send_email() function
+[ 2019-04-14 11:14:39 ] set_files_count_xml() function
+[ 2019-04-14 11:14:39 ] key = 'html_total' |  value = '1'
+[ 2019-04-14 11:14:39 ] key = 'html_done' |  value = '1'
+[ 2019-04-14 11:14:39 ] key = 'total_size' |  value = '1160'
+[ 2019-04-14 11:14:39 ] ----------------------------------------------------------
+[ 2019-04-14 11:14:39 ] ( 1 / 1 )  Done - 0 error pages fixed
+[ 2019-04-14 11:14:39 ] Total Size : 1160
+[ 2019-04-14 11:14:40 ] files/demo/lubax.com_neelgajera096_gmail.com_az2b7ttv8wm_backup.zip ZIP Created !!!
+[ 2019-04-14 11:14:40 ] Error occured when sending email !!!
+[ 2019-04-14 11:14:40 ] Final demo email sent!
+[ 2019-04-14 11:14:40 ] Loading Time = 00:00:06

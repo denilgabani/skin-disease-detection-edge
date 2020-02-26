@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	.container{
+		margin-top:150px;
+	}
+.btn-file {
+		position: relative;
+		overflow: hidden;
+	}
+	.btn-file input[type=file] {
+		position: absolute;
+		top: 0;
+		right: 0;
+		min-width: 100%;
+		min-height: 100%;
+		font-size: 100px;
+		text-align: right;
+		filter: alpha(opacity=0);
+		opacity: 0;
+		outline: none;
+		background: white;
+		cursor: inherit;
+		display: block;
+	}
+	
+	#img-upload{
+		width: 25%;
+		display: block;
+		
+	}
+	#upload{
+		margin-top:10px;
+	}
+</style>
+<!-- main css -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<!-- media queries css -->
+<link href="css/media-queries.css" rel="stylesheet" type="text/css">
+<!-- html5.js for IE less than 9 -->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src='js/upload.js'></script>
+<script  src="prefixfree/1-0-7/prefixfree.dynamic-dom.min.js"></script>
+<!-- jQuery -->
+<script src="ajax/libs/jquery/1-10-2/jquery.min.js"></script>
+<script src="ajax/libs/jqueryui/1-8/jquery-ui.min.js"></script>
+<script src="js/jsapi.js"></script>
+<script  src="js/main.js"></script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-48354920-1', 'lubax.com');
+	ga('send', 'pageview');
+  </script>
+</head>
+
+<body>
+		<div id="pagewrap" data-nav="home">
+			
+	<header id="header">
+		<div id="header-center">
+	
+			
+			<nav>
+				<ul id="main-nav">
+					<li><a href="#about" class="nav">About Us</a></li>
+					<li><a href="#how" class="nav">How it Works</a></li>
+					<li><a href="#news" class="nav">News</a> </li>
+					<li><a href="#contact" class="nav">Contact</a></li>
+				</ul>
+				<!-- /#main-nav --> 
+			</nav>
+		</div>
+	</header>
+	
+	</div>
+	<div class="container">
+			<center>
+				<img id='img-upload'/>
+			</center>
+				<div class="col-md-6">
+					<form class="form-group" action="../uploaded" method='post' enctype="multipart/form-data">
+						<label>Upload Image</label>
+						<div class="input-group">
+							<span class="input-group-btn">
+								<span class="btn btn-default btn-file">
+									Browse… <input type="file" id="imgInp" name="file">
+								</span>
+							</span>
+							<input type="text" class="form-control" readonly>
+							
+						</div>
+						<input type='submit' id='upload' class='btn btn-lg btn-success' value='Upload'>
+					</form>
+				</div>
+				</div>
+</body>
+</html>
+

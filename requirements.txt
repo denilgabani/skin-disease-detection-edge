@@ -1,0 +1,9 @@
+certifi==2019.11.28
+Click==7.0
+Flask==1.1.1
+itsdangerous==1.1.0
+Jinja2==2.11.1
+MarkupSafe==1.1.1
+numpy==1.18.1
+opencv-python==4.2.0.32
+Werkzeug==1.0.0

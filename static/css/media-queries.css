@@ -1,0 +1,296 @@
+/************************************************************************************
+smaller than 940
+*************************************************************************************/
+@media screen and (max-width: 940px) {
+	#panel1-inside{
+		width: 100%;
+	}
+
+	.panel-inside{
+		width: 460px;
+	}
+
+	#header-center{
+		width: 100%;
+	}
+
+/************
+PANEL #1
+*************/
+	#panel1{
+		position: static;
+		margin-top: 100px;
+	}
+
+	#panel1-inside{
+		background-position: -400px bottom;
+	}
+
+	#panel1-right{
+		position: static;
+		margin: 0 auto;
+	}
+
+/************
+PANEL #2
+*************/
+	#panel2{
+		margin-top: 0;
+	}
+
+	#panel2 #sq2, #panel2 #sq4{
+		margin-right: 0;
+	}
+
+/************
+PANEL #3
+*************/
+
+	#panel3-sq1{
+		width: 380px;
+		float: none;
+		margin: auto;
+		padding-top: 0;
+		padding-bottom: 80px;
+	}
+
+	#panel3-sq2{
+		float: none;
+		width: 480px;
+		height: 398px;
+	}
+
+/************
+PANEL #4
+*************/
+
+	#panel4-sq1{
+		float: none;
+		margin: auto;
+	}
+
+	#panel4-sq2{
+		float: none;
+		width: 380px;
+		margin: 80px auto 0 auto;
+	}
+
+/************
+PANEL #5
+*************/
+
+	#panel5-sq1{
+		width: 380px;
+		float: none;
+		margin: auto;
+		padding: 0 0 80px 0;
+	}
+
+	#panel5-sq2{
+		float: none;
+		margin: auto;
+	}
+
+/************
+PANEL #6
+*************/
+
+	#panel6 #sq2, #panel6 #sq4{
+		margin-right: 0;
+	}
+
+	#panel6 #sq1, #panel6 #sq2{
+		margin-bottom: 20px;
+	}
+
+	.panel6-sq{
+		width: 220px;
+	}
+}
+
+/************************************************************************************
+smaller than 900
+*************************************************************************************/
+@media screen and (max-width: 900px) {
+
+	/* site logo */
+	#site-logo {
+		display: block;
+		float: left;
+		width: 90px;
+		height: 40px;
+		background: url(img/logo_white_small.png) no-repeat center bottom;
+	}
+
+	#main-nav {
+		margin: 0 0 0 -16px !important;
+		clear: both;
+	}
+
+	#beta-button{
+		margin-top: 10px;
+		margin-right: 5px;
+	}
+
+}
+
+/************************************************************************************
+smaller than 600
+*************************************************************************************/
+@media screen and (max-width: 600px) {
+
+	#panel8 .panel-inside{
+		width: 96%;
+	}
+
+	.feed-title{
+		width: 80%;
+	}
+
+}
+
+
+/************************************************************************************
+smaller than 540
+*************************************************************************************/
+@media screen and (max-width: 540px) {
+
+	/* disable webkit text size adjust (for iPhone) */
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	#social{
+		display: none;
+	}
+
+}
+
+/************************************************************************************
+smaller than 450
+*************************************************************************************/
+@media screen and (max-width: 450px) {
+	#social{
+		display: none;
+	}
+
+	.panel-inside{
+		width: 90%;
+	}
+
+	#main-nav a{
+		font-size: 12px;
+		padding: 16px 10px;
+	}
+/************
+PANEL #1
+*************/
+
+	#panel1-inside{
+		background: none;
+	}
+
+/************
+PANEL #2
+*************/
+
+	.panel2-sq{
+		width: 100%;
+	}
+
+	.panel2-sq .sq-icon {
+		float: none;
+		margin: 55px auto 60px auto;
+	}
+
+	.panel-img{
+		width: auto !important;
+		height: auto !important;
+	}
+
+/************
+PANEL #3
+*************/
+	#panel3-sq1 {
+		width: 100%;
+	}
+
+/************
+PANEL #4
+*************/
+	#panel4-sq2 {
+		width: 100%;
+	}
+
+/************
+PANEL #5
+*************/
+	#panel5-sq1 {
+		width: 100%;
+	}
+
+/************
+PANEL #6
+*************/
+
+	.panel6-sq {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+
+/************
+PANEL #7
+*************/
+
+	#panel7 #sq2 {
+		width: 100%;
+	}
+
+}
+
+/************************************************************************************
+smaller than 340
+*************************************************************************************/
+@media screen and (max-width: 340px) {
+
+	#panel1-right{
+		padding-top: 50px;
+		width: 290px;
+	}
+
+	#panel1-right h1{
+		font-size: 24px;
+	}
+
+	.panel1-sq{
+		width: 80px;
+		height: 80px;
+	}
+
+	.panel1-sq .sq-icon {
+		margin: 6px auto 10px 
+	}
+
+	#panel1-right h2{
+		font-size: 15px;
+	}
+}
+
+/************************************************************************************
+smaller than 400 high
+*************************************************************************************/
+@media screen and (max-height: 400px) {
+	#header {
+		position: static;
+	}
+
+	#panel1{
+		position: static;
+		margin-top: 0;
+	}
+
+	#panel2{
+		margin-top: 0;
+	}
+}
+
