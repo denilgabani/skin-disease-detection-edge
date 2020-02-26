@@ -1,4 +1,4 @@
-# Skin Disease Detection with ai at the edge
+# Skin Disease Detection using AI at the Edge
 
 Skin Disease Detection at edge predicts the disease of skin from the image of that infected part in less than one second and that's where come ai at the edge.
 
