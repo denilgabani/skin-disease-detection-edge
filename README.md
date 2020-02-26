@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ## Running the app
 
-Activate the [h](https://github.com/denilDG/skin-disease-detection-edge/edit/master/README.md#L26)
+Activate the [h](https://github.com/denilDG/skin-disease-detection-edge/README.md#L26)
 
 Activate the openvino source:- 
 
