@@ -2,6 +2,9 @@
 
 Skin Disease Detection at edge predicts the disease of skin from the image of that infected part in less than one second and that's where come ai at the edge.
 
+This web app simply take an disease image using a web interface and give the disease name with accuracy and time taken for prediction.
+
+
 ## Getting Started
 
 
@@ -86,32 +89,44 @@ python app.py
 #### Step 6
 Open the link as specified in terminal which would be like as shown in the picture:- 
 
-![terminal](imgs/app_link.png)
+![terminal](media/app_link.png)
 
 So open the link shown as terminal here which is:- http://127.0.0.1:5000/
 
 Home page will be like this:-
 
-![home](imgs/home.png)
+![home](media/home.png)
 
 Click on the identify button of the page.
 
 It will redirect you to upload page:-
 
-![upload](imgs/upload.png)
+![upload](media/upload.png)
 
 Upload the skin disease image:-
 
-![uploading](imgs/uploaded_image.png)
+![uploading](media/uploaded_image.png)
 
 Now click on the upload button.
 
 It will give the result as shown in below picture:-
 
-![prediction](imgs/prediction.png)
+![prediction](media/prediction.png)
+
+## Demo video
+
+[![Demo_Video](http://img.youtube.com/vi/PXgaFHic8eg/0.jpg)](https://www.youtube.com/watch?v=PXgaFHic8eg)
 
 ## Comparision
 
-Comparision with Skin disease detection at edge with normal skin disease detection system (https://github.com/denilDG/skin-disease-detection).
+Comparision of ***Time taken for prediction*** Skin disease detection at edge with normal skin disease detection system (https://github.com/denilDG/skin-disease-detection).
 
-![Skin_Disease_Edge](imgs/Skin Disease edge.png "Skin Disease Detetcion at Edge") ![alt-text-2](imgs/Skin Disease.png "Skin Disease Detection")
+#### Skin Disease Detection using tensorflow weight files
+![Skin_Disease](media/SkinDisease.png)<br /> <br />
+
+##### Skin Disease Detection at edge
+![Skin_Disease Detection_Edge](media/SkinDiseaseedge.png)<br /> <br />
+
+## Note:
+
+### This model is not that much accurate. It's only to learn the deployment of an web app using openvino and flask. 
